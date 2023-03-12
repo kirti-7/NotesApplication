@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/bottomsheet"
+    >
+
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="7dp"
+        android:background="@drawable/delete_shape"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want to delete\nthe note?"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginVertical="15dp" />
+
+    <TextView
+        android:id="@+id/yes"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:layout_marginVertical="10dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:background="@drawable/delete_shape"
+        android:backgroundTint="@color/red"/>
+    <TextView
+        android:id="@+id/no"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:layout_marginVertical="10dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:background="@drawable/delete_shape"
+        android:backgroundTint="@color/grey"/>
+
+</LinearLayout>
